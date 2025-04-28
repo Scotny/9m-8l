@@ -1,0 +1,42 @@
+.user_card {
+  width: 319px;
+  height: 508px;
+  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.bg-true {
+  background-color: #fcf2e5;
+}
+
+.bg-false {
+  background-color: #ffffff;
+}
+
+.user_card img {
+  width: 271px;
+  height: 271px;
+}
+
+.user_card h3 {
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user_card p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}

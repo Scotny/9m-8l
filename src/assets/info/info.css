@@ -1,0 +1,48 @@
+.info_card {
+  width: 180px;
+  height: 283px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info_card img {
+  width: 164px;
+  height: 140px;
+}
+
+.info_card h4 {
+  text-align: left;
+  color: #009af0;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: 1.2%;
+}
+
+.info_card p {
+  text-align: left;
+  color: #1e1e1e;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 100%;
+  letter-spacing: 1.2%;
+}
+
+.info_card button {
+  width: 56px;
+  height: 19px;
+  border-radius: 4px;
+  gap: 10px;
+  margin-bottom: 14px;
+  background-color: #009af0;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 100%;
+  letter-spacing: 1.2%;
+}
